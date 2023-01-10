@@ -1,0 +1,14 @@
+{
+  "name": "algoexperts-coding-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Felipe Tovar",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
