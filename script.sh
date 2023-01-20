@@ -6,7 +6,7 @@ readonly COLOR_YELLOW="\033[0;33m"
 readonly COLOR_RESET="\033[0m"
 
 echo "${COLOR_RED}Name of folder:${COLOR_RESET}\\n"
-read -r name_of_folder
+read -r folder
 
 echo "${COLOR_RED} Select level ${COLOR_RESET}
           1) Easy
@@ -35,6 +35,7 @@ case $level in
     ;;
 esac
 
+name_of_folder=${folder//-/_}
 mkdir $name_of_folder
 cd $name_of_folder
 touch index.js
