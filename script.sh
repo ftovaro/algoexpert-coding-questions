@@ -38,7 +38,8 @@ esac
 name_of_folder=${folder//-/_}
 mkdir $name_of_folder
 cd $name_of_folder
-touch index.js
-touch test.js
+cp ../../templates/function_template.js index.js
+cp ../../templates/js_test.js test.js
 touch README.md
-touch "$name_of_folder.rb"
+cp ../../templates/module_template.rb "$name_of_folder.rb"
+cp ../../templates/ruby_test.rb "test_$name_of_folder.rb"
