@@ -10,5 +10,8 @@
   "license": "ISC",
   "jest": {
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }

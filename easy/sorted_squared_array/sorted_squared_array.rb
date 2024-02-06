@@ -9,12 +9,15 @@ def sorted_squared_array(array)
     right = array[right_idx] ** 2
 
     if(left > right)
-      sol.prepend(left)
+      sol[idx] = left
+      # sol.prepend(left)
       left_idx += 1
     else
-      sol.prepend(right)
+      sol[idx] = right
+      # sol.prepend(right)
       right_idx -= 1
     end
+    idx -= 1
   end
 
   return sol
