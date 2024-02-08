@@ -1,5 +1,6 @@
 require "minitest/autorun"
-require_relative "find_closest_value_in_bst"
+# require_relative "find_closest_value_in_bst"
+require_relative "find_closest_value_in_bst_2"
 
 class Test < Minitest::Test
   def test_1
