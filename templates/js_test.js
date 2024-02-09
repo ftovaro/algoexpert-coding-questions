@@ -1,9 +1,9 @@
-const _ = require('./index');
+const XXX = require('./index');
 
 test('test #1', () => {
-  expect(_()).toEqual(null);
+  expect(XXX()).toEqual(null);
 });
 
 test('test #2', () => {
-  expect(_()).toEqual(null);
+  expect(XXX()).toEqual(null);
 });

@@ -1,4 +1,4 @@
 module Problem
-  def self._()
+  def self.XXX()
   end
 end

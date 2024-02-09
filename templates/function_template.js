@@ -2,4 +2,4 @@
 
 
 // Do not edit the line below.
-module.exports = _
+module.exports = XXX
