@@ -1,3 +1,6 @@
+# Time: O(V + E)
+# Space: O(V)
+
 module Problem
   class Node
     attr_accessor :name, :children
