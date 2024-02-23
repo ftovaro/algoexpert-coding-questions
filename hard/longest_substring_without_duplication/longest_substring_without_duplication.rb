@@ -1,3 +1,6 @@
+# O(n) Time
+# O(min(n, a)) Space
+
 module Problem
   def self.longest_substring_without_duplication(string)
     visited = {}
